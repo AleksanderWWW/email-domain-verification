@@ -10,7 +10,6 @@ type VerificationRequest struct {
 	Domain string `json:"domain"`
 }
 
-
 func HandleVerification(c *gin.Context) {
 	var vr VerificationRequest
 
